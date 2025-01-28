@@ -31,7 +31,12 @@ nav ul li {
     transition: color 0.3s;
 }
 
-nav ul li:hover {
+nav ul li a{
+    color:  white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
     color: #ffcc00;
     text-decoration: none;
 }
@@ -58,7 +63,7 @@ section p {
     margin-top: 15px;
     font-size: 20px;
     color: #555;
-    text-align: center;
+    text-align: justify;
 }
 
 /* Div with Chapters */
